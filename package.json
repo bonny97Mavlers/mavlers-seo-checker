@@ -1,0 +1,25 @@
+{
+  "name": "mavlers-seo-checker",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server/index.js",
+  "scripts": {
+    "test": "node fixtures/smoke-test.js",
+    "start": "node server/index.js",
+    "dev": "ALLOW_PRIVATE_HOSTS=true node server/index.js",
+    "fixture": "node fixtures/test-site.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@vercel/functions": "^3.11.3",
+    "cheerio": "^1.2.0",
+    "express": "^5.3.0",
+    "pg": "^8.23.1"
+  },
+  "type": "commonjs",
+  "engines": {
+    "node": "22.x"
+  }
+}

@@ -1,0 +1,46 @@
+<!doctype html>
+<html lang="en-GB">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="robots" content="noindex, nofollow">
+  <title>SEO Pre-Launch Checker · Mavlers</title>
+  <link rel="icon" href="/brand/favicon.svg" type="image/svg+xml">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="/css/app.css">
+</head>
+<body>
+  <div class="app">
+    <aside class="side" id="side">
+      <a class="brand" href="#/">
+        <img id="brandLogo" src="/brand/logo.svg" alt="Mavlers" hidden>
+        <span class="wm" id="brandWordmark">mavlers<i>.</i></span>
+        <span class="tag">A brand of Uplers</span>
+        <span class="prod">SEO Pre-Launch Checker</span>
+      </a>
+      <nav class="nav" id="nav"></nav>
+      <div class="side-foot" id="sideFoot"></div>
+    </aside>
+    <div class="main">
+      <header class="topbar">
+        <button class="burger" id="burger" aria-label="Open menu"><svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M3 6h18M3 12h18M3 18h18"/></svg></button>
+        <div class="ctx" id="ctx"></div>
+        <div class="row">
+          <label class="small muted" for="asUser">Viewing as</label>
+          <select class="select" id="asUser" style="width:auto;padding:6px 10px"></select>
+          <a class="btn primary sm" href="#/audits/new">+ New audit</a>
+        </div>
+      </header>
+      <main class="content" id="view" tabindex="-1"></main>
+    </div>
+  </div>
+
+  <button class="fab" id="fab" hidden><span class="spark">✦</span> Ask SEO Assistant</button>
+  <div class="scrim" id="scrim"></div>
+  <aside class="drawer" id="drawer" aria-label="SEO Assistant"></aside>
+
+  <script type="module" src="/js/app.js"></script>
+</body>
+</html>
